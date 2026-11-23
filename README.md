@@ -4,6 +4,7 @@ Code and results behind the videos. Each folder holds one game: the simulator, t
 
 | Folder | Video | Games simulated |
 |---|---|---|
+| `uno/` | Uno | 10,000,000 |
 | `ludo/` | Ludo | 10,000,000 |
 
 ## Ludo
@@ -45,3 +46,38 @@ The good player is a hand-built strategy, not perfect play. Its results describe
 ### What the numbers mean
 
 Win rates against random players and against good players put the tested strategy in each of the four seats in turn (50,000 games per seat) against three copies of the opponent. Seat-order figures come from 600,000 games between four good players. Each headline win rate rests on 200,000 games, which puts it within about 0.2 percentage points.
+
+## Uno
+
+### Run it
+
+```
+cd uno
+python3 uno_sim.py 50000     # official rules: 96 matchups, 4,800,000 games
+python3 uno_house.py 40000   # house rules: 130 matchups, 5,200,000 games
+```
+
+Both scripts use fixed seeds, so a rerun reproduces `uno_results.json` and `uno_house_results.json`. Together they make up the 10,000,000 games in the video.
+
+### Rules used
+
+108-card deck, seven cards each, random starting player. The starting card is always a number card. Play a card matching the colour or symbol, or a Wild. A Wild Draw Four is only legal when you hold no card of the current colour. If you cannot play, draw one card and play it straight away if it is legal. No challenges and no "Uno!" penalties. The first player to empty their hand wins a single round; points are not counted.
+
+House rules are switches on top of that: stacking (a Draw Two can be answered with a Draw Two, a Wild Draw Four with a Wild Draw Four), draw until you can play, and seven-zero (a 7 swaps hands with another player, a 0 passes every hand one seat along).
+
+### Strategies
+
+| Name in the code | What it does |
+|---|---|
+| `random` | Plays any legal card and picks Wild colours at random |
+| `random+smart_colour` | Random cards, but picks the Wild colour it holds most of |
+| `numbers_first` | Plays number cards before action cards, Wilds last |
+| `actions_first` | Plays Skip, Reverse and Draw Two as early as possible, Wilds last |
+| `all_out_attack` | Draw cards first, then Skip and Reverse, then numbers, plain Wild last |
+| `colour_keeper` | Stays on its strongest colour and treats all coloured cards alike |
+| `wilds_first` | Plays Wilds as soon as it can |
+| `adaptive` | The "good player": plays numbers first, but unloads action cards when the next player is down to two cards or fewer |
+
+### What the numbers mean
+
+Each matchup is 50,000 games under official rules and 40,000 under each house-rule set, which puts a win rate within about 0.2 to 0.25 percentage points. Seat order is counted from whoever plays first, and the starting player is chosen at random in every game.
