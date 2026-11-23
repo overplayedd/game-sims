@@ -1,0 +1,2947 @@
+{
+ "games_per_config": 40000,
+ "total_games": 5200000,
+ "seconds": 254.6,
+ "results": [
+  {
+   "label": "official|order:2 adaptive",
+   "ruleset": "official",
+   "strats": [
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.49955,
+   "win_rate_by_turn_order": [
+    0.514075,
+    0.485925
+   ],
+   "avg_turns": 34.36025,
+   "median_turns": 27,
+   "p90_turns": 67,
+   "max_turns": 251,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "official|order:4 adaptive",
+   "ruleset": "official",
+   "strats": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.24855,
+   "win_rate_by_turn_order": [
+    0.270425,
+    0.248275,
+    0.24565,
+    0.23565
+   ],
+   "avg_turns": 43.9648,
+   "median_turns": 39,
+   "p90_turns": 72,
+   "max_turns": 244,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:random vs 3 adaptive",
+   "ruleset": "official",
+   "strats": [
+    "random",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.1931,
+   "win_rate_by_turn_order": [
+    0.27065,
+    0.249925,
+    0.242175,
+    0.23725
+   ],
+   "avg_turns": 44.913825,
+   "median_turns": 40,
+   "p90_turns": 74,
+   "max_turns": 216,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:random vs 3 random",
+   "ruleset": "official",
+   "strats": [
+    "random",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.249625,
+   "win_rate_by_turn_order": [
+    0.271775,
+    0.249675,
+    0.243375,
+    0.235175
+   ],
+   "avg_turns": 50.008275,
+   "median_turns": 44,
+   "p90_turns": 83,
+   "max_turns": 230,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "official|2p:random vs adaptive",
+   "ruleset": "official",
+   "strats": [
+    "random",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.40285,
+   "win_rate_by_turn_order": [
+    0.513225,
+    0.486775
+   ],
+   "avg_turns": 39.3041,
+   "median_turns": 31,
+   "p90_turns": 76,
+   "max_turns": 280,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:random+smart_colour vs 3 adaptive",
+   "ruleset": "official",
+   "strats": [
+    "random+smart_colour",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2079,
+   "win_rate_by_turn_order": [
+    0.26935,
+    0.2493,
+    0.2464,
+    0.23495
+   ],
+   "avg_turns": 44.568,
+   "median_turns": 39,
+   "p90_turns": 73,
+   "max_turns": 220,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:random+smart_colour vs 3 random",
+   "ruleset": "official",
+   "strats": [
+    "random+smart_colour",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.273925,
+   "win_rate_by_turn_order": [
+    0.271425,
+    0.249525,
+    0.241725,
+    0.237325
+   ],
+   "avg_turns": 49.1342,
+   "median_turns": 44,
+   "p90_turns": 81,
+   "max_turns": 240,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "official|2p:random+smart_colour vs adaptive",
+   "ruleset": "official",
+   "strats": [
+    "random+smart_colour",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.464025,
+   "win_rate_by_turn_order": [
+    0.515075,
+    0.484925
+   ],
+   "avg_turns": 35.377825,
+   "median_turns": 28,
+   "p90_turns": 68,
+   "max_turns": 267,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:numbers_first vs 3 adaptive",
+   "ruleset": "official",
+   "strats": [
+    "numbers_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.244925,
+   "win_rate_by_turn_order": [
+    0.27355,
+    0.246825,
+    0.2433,
+    0.236325
+   ],
+   "avg_turns": 42.8097,
+   "median_turns": 37,
+   "p90_turns": 70,
+   "max_turns": 222,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:numbers_first vs 3 random",
+   "ruleset": "official",
+   "strats": [
+    "numbers_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.3149,
+   "win_rate_by_turn_order": [
+    0.27085,
+    0.248975,
+    0.24375,
+    0.236425
+   ],
+   "avg_turns": 46.734725,
+   "median_turns": 41,
+   "p90_turns": 77,
+   "max_turns": 251,
+   "biggest_hand": 24,
+   "unfinished": 0
+  },
+  {
+   "label": "official|2p:numbers_first vs adaptive",
+   "ruleset": "official",
+   "strats": [
+    "numbers_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.471675,
+   "win_rate_by_turn_order": [
+    0.513825,
+    0.486175
+   ],
+   "avg_turns": 32.457,
+   "median_turns": 25,
+   "p90_turns": 63,
+   "max_turns": 235,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:actions_first vs 3 adaptive",
+   "ruleset": "official",
+   "strats": [
+    "actions_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.24595,
+   "win_rate_by_turn_order": [
+    0.27365,
+    0.25185,
+    0.24025,
+    0.23425
+   ],
+   "avg_turns": 43.8908,
+   "median_turns": 39,
+   "p90_turns": 72,
+   "max_turns": 197,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:actions_first vs 3 random",
+   "ruleset": "official",
+   "strats": [
+    "actions_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.316875,
+   "win_rate_by_turn_order": [
+    0.2754,
+    0.249075,
+    0.238625,
+    0.2369
+   ],
+   "avg_turns": 48.01935,
+   "median_turns": 42,
+   "p90_turns": 79,
+   "max_turns": 253,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "official|2p:actions_first vs adaptive",
+   "ruleset": "official",
+   "strats": [
+    "actions_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.519825,
+   "win_rate_by_turn_order": [
+    0.51765,
+    0.48235
+   ],
+   "avg_turns": 33.228575,
+   "median_turns": 26,
+   "p90_turns": 64,
+   "max_turns": 279,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:all_out_attack vs 3 adaptive",
+   "ruleset": "official",
+   "strats": [
+    "all_out_attack",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.23335,
+   "win_rate_by_turn_order": [
+    0.270025,
+    0.25175,
+    0.240275,
+    0.23795
+   ],
+   "avg_turns": 44.4698,
+   "median_turns": 39,
+   "p90_turns": 72,
+   "max_turns": 219,
+   "biggest_hand": 20,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:all_out_attack vs 3 random",
+   "ruleset": "official",
+   "strats": [
+    "all_out_attack",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.3065,
+   "win_rate_by_turn_order": [
+    0.269625,
+    0.248975,
+    0.24375,
+    0.23765
+   ],
+   "avg_turns": 48.4998,
+   "median_turns": 43,
+   "p90_turns": 80,
+   "max_turns": 240,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "official|2p:all_out_attack vs adaptive",
+   "ruleset": "official",
+   "strats": [
+    "all_out_attack",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.50765,
+   "win_rate_by_turn_order": [
+    0.5117,
+    0.4883
+   ],
+   "avg_turns": 34.4684,
+   "median_turns": 27,
+   "p90_turns": 66,
+   "max_turns": 328,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:colour_keeper vs 3 adaptive",
+   "ruleset": "official",
+   "strats": [
+    "colour_keeper",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2473,
+   "win_rate_by_turn_order": [
+    0.272925,
+    0.251475,
+    0.245475,
+    0.230125
+   ],
+   "avg_turns": 43.410875,
+   "median_turns": 38,
+   "p90_turns": 71,
+   "max_turns": 200,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:colour_keeper vs 3 random",
+   "ruleset": "official",
+   "strats": [
+    "colour_keeper",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.32055,
+   "win_rate_by_turn_order": [
+    0.270125,
+    0.24945,
+    0.24095,
+    0.239475
+   ],
+   "avg_turns": 47.4769,
+   "median_turns": 42,
+   "p90_turns": 78,
+   "max_turns": 247,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "official|2p:colour_keeper vs adaptive",
+   "ruleset": "official",
+   "strats": [
+    "colour_keeper",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.496225,
+   "win_rate_by_turn_order": [
+    0.512025,
+    0.487975
+   ],
+   "avg_turns": 32.887475,
+   "median_turns": 26,
+   "p90_turns": 64,
+   "max_turns": 278,
+   "biggest_hand": 25,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:wilds_first vs 3 adaptive",
+   "ruleset": "official",
+   "strats": [
+    "wilds_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.204725,
+   "win_rate_by_turn_order": [
+    0.26875,
+    0.249325,
+    0.244525,
+    0.2374
+   ],
+   "avg_turns": 44.792325,
+   "median_turns": 40,
+   "p90_turns": 73,
+   "max_turns": 226,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:wilds_first vs 3 random",
+   "ruleset": "official",
+   "strats": [
+    "wilds_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.26965,
+   "win_rate_by_turn_order": [
+    0.273575,
+    0.249575,
+    0.2389,
+    0.23795
+   ],
+   "avg_turns": 49.439325,
+   "median_turns": 44,
+   "p90_turns": 81,
+   "max_turns": 268,
+   "biggest_hand": 24,
+   "unfinished": 0
+  },
+  {
+   "label": "official|2p:wilds_first vs adaptive",
+   "ruleset": "official",
+   "strats": [
+    "wilds_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.450775,
+   "win_rate_by_turn_order": [
+    0.513625,
+    0.486375
+   ],
+   "avg_turns": 36.532225,
+   "median_turns": 29,
+   "p90_turns": 70,
+   "max_turns": 257,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:adaptive vs 3 adaptive",
+   "ruleset": "official",
+   "strats": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.247525,
+   "win_rate_by_turn_order": [
+    0.269375,
+    0.25055,
+    0.24465,
+    0.235425
+   ],
+   "avg_turns": 43.959475,
+   "median_turns": 39,
+   "p90_turns": 72,
+   "max_turns": 218,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "official|4p:adaptive vs 3 random",
+   "ruleset": "official",
+   "strats": [
+    "adaptive",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.3247,
+   "win_rate_by_turn_order": [
+    0.269525,
+    0.2519,
+    0.241,
+    0.237575
+   ],
+   "avg_turns": 47.984175,
+   "median_turns": 42,
+   "p90_turns": 79,
+   "max_turns": 250,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "official|2p:adaptive vs adaptive",
+   "ruleset": "official",
+   "strats": [
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.50305,
+   "win_rate_by_turn_order": [
+    0.516275,
+    0.483725
+   ],
+   "avg_turns": 34.147225,
+   "median_turns": 26,
+   "p90_turns": 66,
+   "max_turns": 280,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|order:2 adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.504,
+   "win_rate_by_turn_order": [
+    0.51355,
+    0.48645
+   ],
+   "avg_turns": 36.916275,
+   "median_turns": 29,
+   "p90_turns": 71,
+   "max_turns": 293,
+   "biggest_hand": 25,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|order:4 adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.24545,
+   "win_rate_by_turn_order": [
+    0.274025,
+    0.247925,
+    0.244825,
+    0.233225
+   ],
+   "avg_turns": 46.177025,
+   "median_turns": 41,
+   "p90_turns": 75,
+   "max_turns": 225,
+   "biggest_hand": 25,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:random vs 3 adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "random",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.190475,
+   "win_rate_by_turn_order": [
+    0.267425,
+    0.25145,
+    0.243925,
+    0.2372
+   ],
+   "avg_turns": 47.5416,
+   "median_turns": 42,
+   "p90_turns": 78,
+   "max_turns": 258,
+   "biggest_hand": 26,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:random vs 3 random",
+   "ruleset": "stacking",
+   "strats": [
+    "random",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2501,
+   "win_rate_by_turn_order": [
+    0.267425,
+    0.2518,
+    0.245325,
+    0.23545
+   ],
+   "avg_turns": 53.32505,
+   "median_turns": 47,
+   "p90_turns": 87,
+   "max_turns": 273,
+   "biggest_hand": 26,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|2p:random vs adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "random",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.39995,
+   "win_rate_by_turn_order": [
+    0.512825,
+    0.487175
+   ],
+   "avg_turns": 42.170575,
+   "median_turns": 33,
+   "p90_turns": 81,
+   "max_turns": 306,
+   "biggest_hand": 25,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:random+smart_colour vs 3 adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "random+smart_colour",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2046,
+   "win_rate_by_turn_order": [
+    0.271475,
+    0.251425,
+    0.238175,
+    0.238925
+   ],
+   "avg_turns": 47.37155,
+   "median_turns": 42,
+   "p90_turns": 77,
+   "max_turns": 274,
+   "biggest_hand": 28,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:random+smart_colour vs 3 random",
+   "ruleset": "stacking",
+   "strats": [
+    "random+smart_colour",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.275025,
+   "win_rate_by_turn_order": [
+    0.268075,
+    0.25095,
+    0.240925,
+    0.24005
+   ],
+   "avg_turns": 52.207725,
+   "median_turns": 46,
+   "p90_turns": 86,
+   "max_turns": 277,
+   "biggest_hand": 27,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|2p:random+smart_colour vs adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "random+smart_colour",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.465325,
+   "win_rate_by_turn_order": [
+    0.5178,
+    0.4822
+   ],
+   "avg_turns": 38.25415,
+   "median_turns": 31,
+   "p90_turns": 73,
+   "max_turns": 274,
+   "biggest_hand": 24,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:numbers_first vs 3 adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "numbers_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.249,
+   "win_rate_by_turn_order": [
+    0.27315,
+    0.251825,
+    0.24035,
+    0.234675
+   ],
+   "avg_turns": 45.31425,
+   "median_turns": 40,
+   "p90_turns": 74,
+   "max_turns": 263,
+   "biggest_hand": 26,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:numbers_first vs 3 random",
+   "ruleset": "stacking",
+   "strats": [
+    "numbers_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.31745,
+   "win_rate_by_turn_order": [
+    0.269,
+    0.2545,
+    0.24195,
+    0.23455
+   ],
+   "avg_turns": 49.954125,
+   "median_turns": 44,
+   "p90_turns": 82,
+   "max_turns": 267,
+   "biggest_hand": 26,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|2p:numbers_first vs adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "numbers_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.491,
+   "win_rate_by_turn_order": [
+    0.5142,
+    0.4858
+   ],
+   "avg_turns": 35.653875,
+   "median_turns": 28,
+   "p90_turns": 68,
+   "max_turns": 311,
+   "biggest_hand": 24,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:actions_first vs 3 adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "actions_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.234375,
+   "win_rate_by_turn_order": [
+    0.269825,
+    0.249825,
+    0.245075,
+    0.235275
+   ],
+   "avg_turns": 46.50095,
+   "median_turns": 41,
+   "p90_turns": 76,
+   "max_turns": 229,
+   "biggest_hand": 28,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:actions_first vs 3 random",
+   "ruleset": "stacking",
+   "strats": [
+    "actions_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.312325,
+   "win_rate_by_turn_order": [
+    0.269475,
+    0.249925,
+    0.239775,
+    0.240825
+   ],
+   "avg_turns": 50.8856,
+   "median_turns": 45,
+   "p90_turns": 83,
+   "max_turns": 278,
+   "biggest_hand": 29,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|2p:actions_first vs adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "actions_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.5035,
+   "win_rate_by_turn_order": [
+    0.513775,
+    0.486225
+   ],
+   "avg_turns": 35.855625,
+   "median_turns": 29,
+   "p90_turns": 68,
+   "max_turns": 245,
+   "biggest_hand": 26,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:all_out_attack vs 3 adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "all_out_attack",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.22015,
+   "win_rate_by_turn_order": [
+    0.2717,
+    0.2529,
+    0.242975,
+    0.232425
+   ],
+   "avg_turns": 47.3469,
+   "median_turns": 42,
+   "p90_turns": 77,
+   "max_turns": 227,
+   "biggest_hand": 29,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:all_out_attack vs 3 random",
+   "ruleset": "stacking",
+   "strats": [
+    "all_out_attack",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.29435,
+   "win_rate_by_turn_order": [
+    0.270775,
+    0.246475,
+    0.240975,
+    0.241775
+   ],
+   "avg_turns": 51.82645,
+   "median_turns": 46,
+   "p90_turns": 85,
+   "max_turns": 258,
+   "biggest_hand": 27,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|2p:all_out_attack vs adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "all_out_attack",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.49145,
+   "win_rate_by_turn_order": [
+    0.511975,
+    0.488025
+   ],
+   "avg_turns": 37.13385,
+   "median_turns": 30,
+   "p90_turns": 70,
+   "max_turns": 259,
+   "biggest_hand": 26,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:colour_keeper vs 3 adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "colour_keeper",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.245975,
+   "win_rate_by_turn_order": [
+    0.274775,
+    0.253325,
+    0.2415,
+    0.2304
+   ],
+   "avg_turns": 45.92165,
+   "median_turns": 41,
+   "p90_turns": 75,
+   "max_turns": 218,
+   "biggest_hand": 26,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:colour_keeper vs 3 random",
+   "ruleset": "stacking",
+   "strats": [
+    "colour_keeper",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.31545,
+   "win_rate_by_turn_order": [
+    0.26855,
+    0.2499,
+    0.242775,
+    0.238775
+   ],
+   "avg_turns": 50.3272,
+   "median_turns": 45,
+   "p90_turns": 82,
+   "max_turns": 246,
+   "biggest_hand": 27,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|2p:colour_keeper vs adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "colour_keeper",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.4965,
+   "win_rate_by_turn_order": [
+    0.5176,
+    0.4824
+   ],
+   "avg_turns": 35.5335,
+   "median_turns": 28,
+   "p90_turns": 67,
+   "max_turns": 291,
+   "biggest_hand": 24,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:wilds_first vs 3 adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "wilds_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.203,
+   "win_rate_by_turn_order": [
+    0.27045,
+    0.247925,
+    0.24455,
+    0.237075
+   ],
+   "avg_turns": 47.410175,
+   "median_turns": 42,
+   "p90_turns": 77,
+   "max_turns": 223,
+   "biggest_hand": 27,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:wilds_first vs 3 random",
+   "ruleset": "stacking",
+   "strats": [
+    "wilds_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2713,
+   "win_rate_by_turn_order": [
+    0.264475,
+    0.250825,
+    0.244275,
+    0.240425
+   ],
+   "avg_turns": 52.683725,
+   "median_turns": 47,
+   "p90_turns": 86,
+   "max_turns": 297,
+   "biggest_hand": 25,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|2p:wilds_first vs adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "wilds_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.444775,
+   "win_rate_by_turn_order": [
+    0.5126,
+    0.4874
+   ],
+   "avg_turns": 39.6485,
+   "median_turns": 32,
+   "p90_turns": 75,
+   "max_turns": 270,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:adaptive vs 3 adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.250975,
+   "win_rate_by_turn_order": [
+    0.2647,
+    0.252925,
+    0.2463,
+    0.236075
+   ],
+   "avg_turns": 46.457925,
+   "median_turns": 41,
+   "p90_turns": 76,
+   "max_turns": 196,
+   "biggest_hand": 25,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|4p:adaptive vs 3 random",
+   "ruleset": "stacking",
+   "strats": [
+    "adaptive",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.3198,
+   "win_rate_by_turn_order": [
+    0.26745,
+    0.2568,
+    0.243175,
+    0.232575
+   ],
+   "avg_turns": 50.987175,
+   "median_turns": 45,
+   "p90_turns": 84,
+   "max_turns": 243,
+   "biggest_hand": 27,
+   "unfinished": 0
+  },
+  {
+   "label": "stacking|2p:adaptive vs adaptive",
+   "ruleset": "stacking",
+   "strats": [
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.50115,
+   "win_rate_by_turn_order": [
+    0.51605,
+    0.48395
+   ],
+   "avg_turns": 36.655,
+   "median_turns": 29,
+   "p90_turns": 70,
+   "max_turns": 334,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|order:2 adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.499575,
+   "win_rate_by_turn_order": [
+    0.512625,
+    0.487375
+   ],
+   "avg_turns": 52.399325,
+   "median_turns": 36,
+   "p90_turns": 115,
+   "max_turns": 492,
+   "biggest_hand": 40,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|order:4 adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.250625,
+   "win_rate_by_turn_order": [
+    0.2618,
+    0.252175,
+    0.246425,
+    0.2396
+   ],
+   "avg_turns": 77.698575,
+   "median_turns": 51,
+   "p90_turns": 169,
+   "max_turns": 834,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:random vs 3 adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "random",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.1837,
+   "win_rate_by_turn_order": [
+    0.26505,
+    0.24475,
+    0.247525,
+    0.242675
+   ],
+   "avg_turns": 77.92155,
+   "median_turns": 52,
+   "p90_turns": 168,
+   "max_turns": 823,
+   "biggest_hand": 38,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:random vs 3 random",
+   "ruleset": "draw_until",
+   "strats": [
+    "random",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.250225,
+   "win_rate_by_turn_order": [
+    0.259325,
+    0.249275,
+    0.24335,
+    0.24805
+   ],
+   "avg_turns": 86.681475,
+   "median_turns": 60,
+   "p90_turns": 184,
+   "max_turns": 883,
+   "biggest_hand": 42,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|2p:random vs adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "random",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.345425,
+   "win_rate_by_turn_order": [
+    0.509375,
+    0.490625
+   ],
+   "avg_turns": 61.4056,
+   "median_turns": 43,
+   "p90_turns": 135,
+   "max_turns": 568,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:random+smart_colour vs 3 adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "random+smart_colour",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.191025,
+   "win_rate_by_turn_order": [
+    0.268425,
+    0.24865,
+    0.2416,
+    0.241325
+   ],
+   "avg_turns": 78.899125,
+   "median_turns": 52,
+   "p90_turns": 171,
+   "max_turns": 943,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:random+smart_colour vs 3 random",
+   "ruleset": "draw_until",
+   "strats": [
+    "random+smart_colour",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2726,
+   "win_rate_by_turn_order": [
+    0.265125,
+    0.2461,
+    0.2455,
+    0.243275
+   ],
+   "avg_turns": 86.42365,
+   "median_turns": 59,
+   "p90_turns": 185,
+   "max_turns": 869,
+   "biggest_hand": 42,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|2p:random+smart_colour vs adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "random+smart_colour",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.443,
+   "win_rate_by_turn_order": [
+    0.513125,
+    0.486875
+   ],
+   "avg_turns": 54.46365,
+   "median_turns": 37,
+   "p90_turns": 119,
+   "max_turns": 523,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:numbers_first vs 3 adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "numbers_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.24215,
+   "win_rate_by_turn_order": [
+    0.263825,
+    0.250175,
+    0.2453,
+    0.2407
+   ],
+   "avg_turns": 73.208175,
+   "median_turns": 49,
+   "p90_turns": 157,
+   "max_turns": 689,
+   "biggest_hand": 36,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:numbers_first vs 3 random",
+   "ruleset": "draw_until",
+   "strats": [
+    "numbers_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.324775,
+   "win_rate_by_turn_order": [
+    0.259875,
+    0.2501,
+    0.245075,
+    0.24495
+   ],
+   "avg_turns": 77.625225,
+   "median_turns": 53,
+   "p90_turns": 165,
+   "max_turns": 1007,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|2p:numbers_first vs adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "numbers_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.47435,
+   "win_rate_by_turn_order": [
+    0.5112,
+    0.4888
+   ],
+   "avg_turns": 48.20545,
+   "median_turns": 33,
+   "p90_turns": 104,
+   "max_turns": 543,
+   "biggest_hand": 37,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:actions_first vs 3 adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "actions_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2395,
+   "win_rate_by_turn_order": [
+    0.26335,
+    0.24745,
+    0.247975,
+    0.241225
+   ],
+   "avg_turns": 76.537775,
+   "median_turns": 51,
+   "p90_turns": 164,
+   "max_turns": 1058,
+   "biggest_hand": 46,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:actions_first vs 3 random",
+   "ruleset": "draw_until",
+   "strats": [
+    "actions_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.332925,
+   "win_rate_by_turn_order": [
+    0.261475,
+    0.2473,
+    0.245075,
+    0.24615
+   ],
+   "avg_turns": 80.89195,
+   "median_turns": 55,
+   "p90_turns": 172,
+   "max_turns": 859,
+   "biggest_hand": 38,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|2p:actions_first vs adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "actions_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.5095,
+   "win_rate_by_turn_order": [
+    0.51205,
+    0.48795
+   ],
+   "avg_turns": 49.62765,
+   "median_turns": 34,
+   "p90_turns": 107,
+   "max_turns": 586,
+   "biggest_hand": 37,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:all_out_attack vs 3 adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "all_out_attack",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.231625,
+   "win_rate_by_turn_order": [
+    0.265125,
+    0.250125,
+    0.24325,
+    0.2415
+   ],
+   "avg_turns": 77.7485,
+   "median_turns": 53,
+   "p90_turns": 165,
+   "max_turns": 740,
+   "biggest_hand": 44,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:all_out_attack vs 3 random",
+   "ruleset": "draw_until",
+   "strats": [
+    "all_out_attack",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.314725,
+   "win_rate_by_turn_order": [
+    0.2639,
+    0.244125,
+    0.247625,
+    0.24435
+   ],
+   "avg_turns": 83.564975,
+   "median_turns": 58,
+   "p90_turns": 179,
+   "max_turns": 854,
+   "biggest_hand": 41,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|2p:all_out_attack vs adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "all_out_attack",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.496125,
+   "win_rate_by_turn_order": [
+    0.507,
+    0.493
+   ],
+   "avg_turns": 51.69375,
+   "median_turns": 36,
+   "p90_turns": 112,
+   "max_turns": 532,
+   "biggest_hand": 37,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:colour_keeper vs 3 adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "colour_keeper",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.24535,
+   "win_rate_by_turn_order": [
+    0.26415,
+    0.249125,
+    0.2447,
+    0.242025
+   ],
+   "avg_turns": 74.64975,
+   "median_turns": 50,
+   "p90_turns": 161,
+   "max_turns": 806,
+   "biggest_hand": 37,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:colour_keeper vs 3 random",
+   "ruleset": "draw_until",
+   "strats": [
+    "colour_keeper",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.3347,
+   "win_rate_by_turn_order": [
+    0.2632,
+    0.24735,
+    0.246875,
+    0.242575
+   ],
+   "avg_turns": 78.31045,
+   "median_turns": 54,
+   "p90_turns": 166,
+   "max_turns": 866,
+   "biggest_hand": 37,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|2p:colour_keeper vs adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "colour_keeper",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.491075,
+   "win_rate_by_turn_order": [
+    0.5133,
+    0.4867
+   ],
+   "avg_turns": 49.7362,
+   "median_turns": 34,
+   "p90_turns": 109,
+   "max_turns": 454,
+   "biggest_hand": 37,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:wilds_first vs 3 adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "wilds_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.19755,
+   "win_rate_by_turn_order": [
+    0.264975,
+    0.247125,
+    0.245125,
+    0.242775
+   ],
+   "avg_turns": 78.0678,
+   "median_turns": 53,
+   "p90_turns": 168,
+   "max_turns": 830,
+   "biggest_hand": 40,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:wilds_first vs 3 random",
+   "ruleset": "draw_until",
+   "strats": [
+    "wilds_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.286625,
+   "win_rate_by_turn_order": [
+    0.2604,
+    0.247725,
+    0.2482,
+    0.243675
+   ],
+   "avg_turns": 85.593325,
+   "median_turns": 59,
+   "p90_turns": 183,
+   "max_turns": 921,
+   "biggest_hand": 40,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|2p:wilds_first vs adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "wilds_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.431425,
+   "win_rate_by_turn_order": [
+    0.50625,
+    0.49375
+   ],
+   "avg_turns": 56.62565,
+   "median_turns": 40,
+   "p90_turns": 122,
+   "max_turns": 647,
+   "biggest_hand": 41,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:adaptive vs 3 adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.249225,
+   "win_rate_by_turn_order": [
+    0.26355,
+    0.252,
+    0.239925,
+    0.244525
+   ],
+   "avg_turns": 77.6376,
+   "median_turns": 51,
+   "p90_turns": 169,
+   "max_turns": 877,
+   "biggest_hand": 37,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|4p:adaptive vs 3 random",
+   "ruleset": "draw_until",
+   "strats": [
+    "adaptive",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.335875,
+   "win_rate_by_turn_order": [
+    0.260525,
+    0.246675,
+    0.247275,
+    0.245525
+   ],
+   "avg_turns": 82.055675,
+   "median_turns": 55,
+   "p90_turns": 175,
+   "max_turns": 939,
+   "biggest_hand": 40,
+   "unfinished": 0
+  },
+  {
+   "label": "draw_until|2p:adaptive vs adaptive",
+   "ruleset": "draw_until",
+   "strats": [
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.498975,
+   "win_rate_by_turn_order": [
+    0.513025,
+    0.486975
+   ],
+   "avg_turns": 52.889325,
+   "median_turns": 36,
+   "p90_turns": 117,
+   "max_turns": 462,
+   "biggest_hand": 36,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|order:2 adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.5019,
+   "win_rate_by_turn_order": [
+    0.504775,
+    0.495225
+   ],
+   "avg_turns": 33.9177,
+   "median_turns": 27,
+   "p90_turns": 66,
+   "max_turns": 239,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|order:4 adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2519,
+   "win_rate_by_turn_order": [
+    0.2505,
+    0.25115,
+    0.248775,
+    0.249575
+   ],
+   "avg_turns": 44.6078,
+   "median_turns": 39,
+   "p90_turns": 73,
+   "max_turns": 208,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:random vs 3 adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "random",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.184675,
+   "win_rate_by_turn_order": [
+    0.254475,
+    0.250575,
+    0.249075,
+    0.245875
+   ],
+   "avg_turns": 45.693725,
+   "median_turns": 40,
+   "p90_turns": 75,
+   "max_turns": 254,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:random vs 3 random",
+   "ruleset": "seven_zero",
+   "strats": [
+    "random",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.24945,
+   "win_rate_by_turn_order": [
+    0.251475,
+    0.2489,
+    0.250675,
+    0.24895
+   ],
+   "avg_turns": 49.909525,
+   "median_turns": 44,
+   "p90_turns": 82,
+   "max_turns": 243,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|2p:random vs adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "random",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.456,
+   "win_rate_by_turn_order": [
+    0.502,
+    0.498
+   ],
+   "avg_turns": 40.626725,
+   "median_turns": 32,
+   "p90_turns": 80,
+   "max_turns": 303,
+   "biggest_hand": 25,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:random+smart_colour vs 3 adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "random+smart_colour",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2028,
+   "win_rate_by_turn_order": [
+    0.2501,
+    0.2519,
+    0.2485,
+    0.2495
+   ],
+   "avg_turns": 45.310125,
+   "median_turns": 40,
+   "p90_turns": 74,
+   "max_turns": 216,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:random+smart_colour vs 3 random",
+   "ruleset": "seven_zero",
+   "strats": [
+    "random+smart_colour",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.270175,
+   "win_rate_by_turn_order": [
+    0.2511,
+    0.25185,
+    0.250425,
+    0.246625
+   ],
+   "avg_turns": 48.996475,
+   "median_turns": 43,
+   "p90_turns": 81,
+   "max_turns": 334,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|2p:random+smart_colour vs adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "random+smart_colour",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.49985,
+   "win_rate_by_turn_order": [
+    0.502925,
+    0.497075
+   ],
+   "avg_turns": 35.4039,
+   "median_turns": 28,
+   "p90_turns": 68,
+   "max_turns": 276,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:numbers_first vs 3 adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "numbers_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.248625,
+   "win_rate_by_turn_order": [
+    0.24825,
+    0.252,
+    0.25125,
+    0.2485
+   ],
+   "avg_turns": 43.345725,
+   "median_turns": 38,
+   "p90_turns": 71,
+   "max_turns": 213,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:numbers_first vs 3 random",
+   "ruleset": "seven_zero",
+   "strats": [
+    "numbers_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.31955,
+   "win_rate_by_turn_order": [
+    0.2537,
+    0.248475,
+    0.25,
+    0.247825
+   ],
+   "avg_turns": 47.149675,
+   "median_turns": 42,
+   "p90_turns": 78,
+   "max_turns": 223,
+   "biggest_hand": 25,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|2p:numbers_first vs adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "numbers_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.475175,
+   "win_rate_by_turn_order": [
+    0.499825,
+    0.500175
+   ],
+   "avg_turns": 32.444675,
+   "median_turns": 25,
+   "p90_turns": 63,
+   "max_turns": 263,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:actions_first vs 3 adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "actions_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.242175,
+   "win_rate_by_turn_order": [
+    0.25685,
+    0.249075,
+    0.24975,
+    0.244325
+   ],
+   "avg_turns": 44.575975,
+   "median_turns": 39,
+   "p90_turns": 73,
+   "max_turns": 221,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:actions_first vs 3 random",
+   "ruleset": "seven_zero",
+   "strats": [
+    "actions_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.318825,
+   "win_rate_by_turn_order": [
+    0.248125,
+    0.2539,
+    0.249525,
+    0.24845
+   ],
+   "avg_turns": 48.54215,
+   "median_turns": 43,
+   "p90_turns": 80,
+   "max_turns": 232,
+   "biggest_hand": 24,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|2p:actions_first vs adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "actions_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.5301,
+   "win_rate_by_turn_order": [
+    0.5022,
+    0.4978
+   ],
+   "avg_turns": 32.69425,
+   "median_turns": 26,
+   "p90_turns": 63,
+   "max_turns": 351,
+   "biggest_hand": 24,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:all_out_attack vs 3 adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "all_out_attack",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.238675,
+   "win_rate_by_turn_order": [
+    0.247975,
+    0.24855,
+    0.2572,
+    0.246275
+   ],
+   "avg_turns": 45.349975,
+   "median_turns": 40,
+   "p90_turns": 74,
+   "max_turns": 248,
+   "biggest_hand": 24,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:all_out_attack vs 3 random",
+   "ruleset": "seven_zero",
+   "strats": [
+    "all_out_attack",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.315425,
+   "win_rate_by_turn_order": [
+    0.2526,
+    0.251875,
+    0.24865,
+    0.246875
+   ],
+   "avg_turns": 49.142575,
+   "median_turns": 44,
+   "p90_turns": 81,
+   "max_turns": 271,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|2p:all_out_attack vs adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "all_out_attack",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.532675,
+   "win_rate_by_turn_order": [
+    0.5061,
+    0.4939
+   ],
+   "avg_turns": 34.219575,
+   "median_turns": 27,
+   "p90_turns": 65,
+   "max_turns": 250,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:colour_keeper vs 3 adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "colour_keeper",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.24565,
+   "win_rate_by_turn_order": [
+    0.254325,
+    0.251325,
+    0.24575,
+    0.2486
+   ],
+   "avg_turns": 43.760475,
+   "median_turns": 39,
+   "p90_turns": 71,
+   "max_turns": 213,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:colour_keeper vs 3 random",
+   "ruleset": "seven_zero",
+   "strats": [
+    "colour_keeper",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.315725,
+   "win_rate_by_turn_order": [
+    0.252425,
+    0.24815,
+    0.2518,
+    0.247625
+   ],
+   "avg_turns": 47.708975,
+   "median_turns": 42,
+   "p90_turns": 79,
+   "max_turns": 298,
+   "biggest_hand": 25,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|2p:colour_keeper vs adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "colour_keeper",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.504325,
+   "win_rate_by_turn_order": [
+    0.5052,
+    0.4948
+   ],
+   "avg_turns": 32.7038,
+   "median_turns": 26,
+   "p90_turns": 63,
+   "max_turns": 269,
+   "biggest_hand": 21,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:wilds_first vs 3 adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "wilds_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.232875,
+   "win_rate_by_turn_order": [
+    0.250675,
+    0.25155,
+    0.249325,
+    0.24845
+   ],
+   "avg_turns": 46.170925,
+   "median_turns": 41,
+   "p90_turns": 76,
+   "max_turns": 235,
+   "biggest_hand": 20,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:wilds_first vs 3 random",
+   "ruleset": "seven_zero",
+   "strats": [
+    "wilds_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.308975,
+   "win_rate_by_turn_order": [
+    0.255425,
+    0.250675,
+    0.24495,
+    0.24895
+   ],
+   "avg_turns": 49.557925,
+   "median_turns": 44,
+   "p90_turns": 81,
+   "max_turns": 298,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|2p:wilds_first vs adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "wilds_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.4981,
+   "win_rate_by_turn_order": [
+    0.501025,
+    0.498975
+   ],
+   "avg_turns": 37.248525,
+   "median_turns": 30,
+   "p90_turns": 71,
+   "max_turns": 285,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:adaptive vs 3 adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.24995,
+   "win_rate_by_turn_order": [
+    0.2485,
+    0.257075,
+    0.249375,
+    0.24505
+   ],
+   "avg_turns": 44.305975,
+   "median_turns": 39,
+   "p90_turns": 72,
+   "max_turns": 248,
+   "biggest_hand": 22,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|4p:adaptive vs 3 random",
+   "ruleset": "seven_zero",
+   "strats": [
+    "adaptive",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.323775,
+   "win_rate_by_turn_order": [
+    0.254175,
+    0.2532,
+    0.24665,
+    0.245975
+   ],
+   "avg_turns": 48.326075,
+   "median_turns": 43,
+   "p90_turns": 80,
+   "max_turns": 255,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "seven_zero|2p:adaptive vs adaptive",
+   "ruleset": "seven_zero",
+   "strats": [
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.499775,
+   "win_rate_by_turn_order": [
+    0.501025,
+    0.498975
+   ],
+   "avg_turns": 34.048975,
+   "median_turns": 27,
+   "p90_turns": 66,
+   "max_turns": 236,
+   "biggest_hand": 23,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|order:2 adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.4956,
+   "win_rate_by_turn_order": [
+    0.510375,
+    0.489625
+   ],
+   "avg_turns": 56.789625,
+   "median_turns": 40,
+   "p90_turns": 122,
+   "max_turns": 555,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|order:4 adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2486,
+   "win_rate_by_turn_order": [
+    0.25085,
+    0.251625,
+    0.252425,
+    0.2451
+   ],
+   "avg_turns": 81.725675,
+   "median_turns": 56,
+   "p90_turns": 173,
+   "max_turns": 900,
+   "biggest_hand": 38,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:random vs 3 adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "random",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.175575,
+   "win_rate_by_turn_order": [
+    0.249225,
+    0.250875,
+    0.253675,
+    0.246225
+   ],
+   "avg_turns": 85.0423,
+   "median_turns": 58,
+   "p90_turns": 180,
+   "max_turns": 760,
+   "biggest_hand": 37,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:random vs 3 random",
+   "ruleset": "all_three",
+   "strats": [
+    "random",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2491,
+   "win_rate_by_turn_order": [
+    0.249675,
+    0.250775,
+    0.24785,
+    0.2517
+   ],
+   "avg_turns": 95.381625,
+   "median_turns": 67,
+   "p90_turns": 202,
+   "max_turns": 1172,
+   "biggest_hand": 46,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|2p:random vs adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "random",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.459025,
+   "win_rate_by_turn_order": [
+    0.503575,
+    0.496425
+   ],
+   "avg_turns": 70.753775,
+   "median_turns": 50,
+   "p90_turns": 155,
+   "max_turns": 663,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:random+smart_colour vs 3 adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "random+smart_colour",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.1837,
+   "win_rate_by_turn_order": [
+    0.248975,
+    0.252625,
+    0.2498,
+    0.2486
+   ],
+   "avg_turns": 86.762,
+   "median_turns": 59,
+   "p90_turns": 185,
+   "max_turns": 829,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:random+smart_colour vs 3 random",
+   "ruleset": "all_three",
+   "strats": [
+    "random+smart_colour",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2673,
+   "win_rate_by_turn_order": [
+    0.2537,
+    0.24795,
+    0.2507,
+    0.24765
+   ],
+   "avg_turns": 94.34105,
+   "median_turns": 65,
+   "p90_turns": 203,
+   "max_turns": 1017,
+   "biggest_hand": 40,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|2p:random+smart_colour vs adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "random+smart_colour",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.507625,
+   "win_rate_by_turn_order": [
+    0.50055,
+    0.49945
+   ],
+   "avg_turns": 61.629825,
+   "median_turns": 44,
+   "p90_turns": 134,
+   "max_turns": 552,
+   "biggest_hand": 38,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:numbers_first vs 3 adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "numbers_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.246425,
+   "win_rate_by_turn_order": [
+    0.253025,
+    0.245925,
+    0.2514,
+    0.24965
+   ],
+   "avg_turns": 79.843975,
+   "median_turns": 55,
+   "p90_turns": 169,
+   "max_turns": 847,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:numbers_first vs 3 random",
+   "ruleset": "all_three",
+   "strats": [
+    "numbers_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.33895,
+   "win_rate_by_turn_order": [
+    0.256,
+    0.25085,
+    0.24595,
+    0.2472
+   ],
+   "avg_turns": 87.90535,
+   "median_turns": 61,
+   "p90_turns": 186,
+   "max_turns": 1029,
+   "biggest_hand": 42,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|2p:numbers_first vs adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "numbers_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.486625,
+   "win_rate_by_turn_order": [
+    0.500675,
+    0.499325
+   ],
+   "avg_turns": 54.338425,
+   "median_turns": 38,
+   "p90_turns": 117,
+   "max_turns": 489,
+   "biggest_hand": 45,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:actions_first vs 3 adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "actions_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.22265,
+   "win_rate_by_turn_order": [
+    0.249025,
+    0.2544,
+    0.24995,
+    0.246625
+   ],
+   "avg_turns": 82.988,
+   "median_turns": 58,
+   "p90_turns": 176,
+   "max_turns": 850,
+   "biggest_hand": 38,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:actions_first vs 3 random",
+   "ruleset": "all_three",
+   "strats": [
+    "actions_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.321325,
+   "win_rate_by_turn_order": [
+    0.25,
+    0.2559,
+    0.24455,
+    0.24955
+   ],
+   "avg_turns": 93.800525,
+   "median_turns": 65,
+   "p90_turns": 199,
+   "max_turns": 944,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|2p:actions_first vs adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "actions_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.5332,
+   "win_rate_by_turn_order": [
+    0.505425,
+    0.494575
+   ],
+   "avg_turns": 54.995175,
+   "median_turns": 39,
+   "p90_turns": 117,
+   "max_turns": 521,
+   "biggest_hand": 42,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:all_out_attack vs 3 adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "all_out_attack",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.227525,
+   "win_rate_by_turn_order": [
+    0.253675,
+    0.248225,
+    0.24765,
+    0.25045
+   ],
+   "avg_turns": 85.288125,
+   "median_turns": 59,
+   "p90_turns": 181,
+   "max_turns": 911,
+   "biggest_hand": 38,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:all_out_attack vs 3 random",
+   "ruleset": "all_three",
+   "strats": [
+    "all_out_attack",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.3289,
+   "win_rate_by_turn_order": [
+    0.249025,
+    0.25175,
+    0.2487,
+    0.250525
+   ],
+   "avg_turns": 95.53195,
+   "median_turns": 67,
+   "p90_turns": 203,
+   "max_turns": 1483,
+   "biggest_hand": 43,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|2p:all_out_attack vs adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "all_out_attack",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.531875,
+   "win_rate_by_turn_order": [
+    0.502425,
+    0.497575
+   ],
+   "avg_turns": 57.3268,
+   "median_turns": 41,
+   "p90_turns": 121,
+   "max_turns": 622,
+   "biggest_hand": 37,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:colour_keeper vs 3 adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "colour_keeper",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.234725,
+   "win_rate_by_turn_order": [
+    0.24575,
+    0.257625,
+    0.247375,
+    0.24925
+   ],
+   "avg_turns": 81.296725,
+   "median_turns": 56,
+   "p90_turns": 172,
+   "max_turns": 960,
+   "biggest_hand": 40,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:colour_keeper vs 3 random",
+   "ruleset": "all_three",
+   "strats": [
+    "colour_keeper",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.333525,
+   "win_rate_by_turn_order": [
+    0.248125,
+    0.255775,
+    0.249325,
+    0.246775
+   ],
+   "avg_turns": 90.5674,
+   "median_turns": 63,
+   "p90_turns": 193,
+   "max_turns": 910,
+   "biggest_hand": 42,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|2p:colour_keeper vs adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "colour_keeper",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.50795,
+   "win_rate_by_turn_order": [
+    0.50195,
+    0.49805
+   ],
+   "avg_turns": 54.81855,
+   "median_turns": 39,
+   "p90_turns": 118,
+   "max_turns": 518,
+   "biggest_hand": 35,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:wilds_first vs 3 adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "wilds_first",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.228075,
+   "win_rate_by_turn_order": [
+    0.249175,
+    0.24945,
+    0.252675,
+    0.2487
+   ],
+   "avg_turns": 88.16355,
+   "median_turns": 61,
+   "p90_turns": 187,
+   "max_turns": 1059,
+   "biggest_hand": 41,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:wilds_first vs 3 random",
+   "ruleset": "all_three",
+   "strats": [
+    "wilds_first",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.32285,
+   "win_rate_by_turn_order": [
+    0.250675,
+    0.256775,
+    0.248575,
+    0.243975
+   ],
+   "avg_turns": 95.01185,
+   "median_turns": 67,
+   "p90_turns": 201,
+   "max_turns": 1238,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|2p:wilds_first vs adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "wilds_first",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.50035,
+   "win_rate_by_turn_order": [
+    0.50025,
+    0.49975
+   ],
+   "avg_turns": 65.93995,
+   "median_turns": 48,
+   "p90_turns": 141,
+   "max_turns": 738,
+   "biggest_hand": 39,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:adaptive vs 3 adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.2514,
+   "win_rate_by_turn_order": [
+    0.253475,
+    0.248225,
+    0.2487,
+    0.2496
+   ],
+   "avg_turns": 82.018575,
+   "median_turns": 57,
+   "p90_turns": 174,
+   "max_turns": 798,
+   "biggest_hand": 43,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|4p:adaptive vs 3 random",
+   "ruleset": "all_three",
+   "strats": [
+    "adaptive",
+    "random",
+    "random",
+    "random"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.3437,
+   "win_rate_by_turn_order": [
+    0.250975,
+    0.250825,
+    0.252475,
+    0.245725
+   ],
+   "avg_turns": 90.498525,
+   "median_turns": 63,
+   "p90_turns": 193,
+   "max_turns": 832,
+   "biggest_hand": 49,
+   "unfinished": 0
+  },
+  {
+   "label": "all_three|2p:adaptive vs adaptive",
+   "ruleset": "all_three",
+   "strats": [
+    "adaptive",
+    "adaptive"
+   ],
+   "games": 40000,
+   "seat0_win_rate": 0.502825,
+   "win_rate_by_turn_order": [
+    0.504125,
+    0.495875
+   ],
+   "avg_turns": 56.38825,
+   "median_turns": 40,
+   "p90_turns": 122,
+   "max_turns": 640,
+   "biggest_hand": 38,
+   "unfinished": 0
+  }
+ ]
+}
