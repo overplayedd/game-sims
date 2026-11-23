@@ -1,0 +1,900 @@
+{
+ "total_games": 10000000,
+ "sections": {
+  "vs_random": {
+   "hero": {
+    "random": {
+     "games": 200000,
+     "wins": 49864,
+     "by_seat": {
+      "0": 25.61,
+      "1": 25.24,
+      "2": 24.7,
+      "3": 24.19
+     },
+     "win_pct": 24.93
+    },
+    "capturer": {
+     "games": 200000,
+     "wins": 63362,
+     "by_seat": {
+      "0": 32.36,
+      "1": 32.15,
+      "2": 31.45,
+      "3": 30.76
+     },
+     "win_pct": 31.68
+    },
+    "rusher": {
+     "games": 200000,
+     "wins": 66981,
+     "by_seat": {
+      "0": 34.4,
+      "1": 33.89,
+      "2": 32.86,
+      "3": 32.82
+     },
+     "win_pct": 33.49
+    },
+    "spreader": {
+     "games": 200000,
+     "wins": 6980,
+     "by_seat": {
+      "0": 3.67,
+      "1": 3.42,
+      "2": 3.43,
+      "3": 3.44
+     },
+     "win_pct": 3.49
+    },
+    "safe": {
+     "games": 200000,
+     "wins": 91685,
+     "by_seat": {
+      "0": 46.97,
+      "1": 45.63,
+      "2": 45.65,
+      "3": 45.11
+     },
+     "win_pct": 45.84
+    },
+    "hunter_rusher": {
+     "games": 200000,
+     "wins": 67532,
+     "by_seat": {
+      "0": 34.33,
+      "1": 34.14,
+      "2": 33.69,
+      "3": 32.9
+     },
+     "win_pct": 33.77
+    },
+    "expert": {
+     "games": 200000,
+     "wins": 136423,
+     "by_seat": {
+      "0": 68.98,
+      "1": 68.36,
+      "2": 68.24,
+      "3": 67.27
+     },
+     "win_pct": 68.21
+    },
+    "out_random": {
+     "games": 200000,
+     "wins": 26122,
+     "by_seat": {
+      "0": 13.42,
+      "1": 13.13,
+      "2": 12.81,
+      "3": 12.89
+     },
+     "win_pct": 13.06
+    },
+    "out_lead": {
+     "games": 200000,
+     "wins": 104189,
+     "by_seat": {
+      "0": 52.89,
+      "1": 52.16,
+      "2": 51.6,
+      "3": 51.73
+     },
+     "win_pct": 52.09
+    },
+    "expert_no_capture": {
+     "games": 200000,
+     "wins": 119419,
+     "by_seat": {
+      "0": 60.54,
+      "1": 59.79,
+      "2": 59.3,
+      "3": 59.2
+     },
+     "win_pct": 59.71
+    },
+    "expert_no_exit": {
+     "games": 200000,
+     "wins": 92681,
+     "by_seat": {
+      "0": 47.26,
+      "1": 46.23,
+      "2": 46.21,
+      "3": 45.67
+     },
+     "win_pct": 46.34
+    },
+    "expert_no_defence": {
+     "games": 200000,
+     "wins": 124236,
+     "by_seat": {
+      "0": 63.03,
+      "1": 62.23,
+      "2": 61.77,
+      "3": 61.44
+     },
+     "win_pct": 62.12
+    }
+   }
+  },
+  "vs_expert": {
+   "hero": {
+    "random": {
+     "games": 200000,
+     "wins": 7514,
+     "by_seat": {
+      "0": 3.9,
+      "1": 3.92,
+      "2": 3.65,
+      "3": 3.56
+     },
+     "win_pct": 3.76
+    },
+    "capturer": {
+     "games": 200000,
+     "wins": 9798,
+     "by_seat": {
+      "0": 5.19,
+      "1": 4.88,
+      "2": 4.95,
+      "3": 4.57
+     },
+     "win_pct": 4.9
+    },
+    "rusher": {
+     "games": 200000,
+     "wins": 19190,
+     "by_seat": {
+      "0": 9.73,
+      "1": 9.52,
+      "2": 9.7,
+      "3": 9.43
+     },
+     "win_pct": 9.6
+    },
+    "spreader": {
+     "games": 200000,
+     "wins": 174,
+     "by_seat": {
+      "0": 0.08,
+      "1": 0.1,
+      "2": 0.08,
+      "3": 0.09
+     },
+     "win_pct": 0.09
+    },
+    "safe": {
+     "games": 200000,
+     "wins": 28529,
+     "by_seat": {
+      "0": 14.57,
+      "1": 14.13,
+      "2": 14.42,
+      "3": 13.94
+     },
+     "win_pct": 14.26
+    },
+    "hunter_rusher": {
+     "games": 200000,
+     "wins": 19616,
+     "by_seat": {
+      "0": 9.88,
+      "1": 10.02,
+      "2": 9.7,
+      "3": 9.63
+     },
+     "win_pct": 9.81
+    },
+    "expert": {
+     "games": 200000,
+     "wins": 49790,
+     "by_seat": {
+      "0": 25.38,
+      "1": 25.15,
+      "2": 24.66,
+      "3": 24.39
+     },
+     "win_pct": 24.89
+    },
+    "out_random": {
+     "games": 200000,
+     "wins": 1615,
+     "by_seat": {
+      "0": 0.86,
+      "1": 0.76,
+      "2": 0.79,
+      "3": 0.83
+     },
+     "win_pct": 0.81
+    },
+    "out_lead": {
+     "games": 200000,
+     "wins": 42052,
+     "by_seat": {
+      "0": 21.48,
+      "1": 21.33,
+      "2": 20.83,
+      "3": 20.46
+     },
+     "win_pct": 21.03
+    },
+    "expert_no_capture": {
+     "games": 200000,
+     "wins": 43003,
+     "by_seat": {
+      "0": 21.95,
+      "1": 21.78,
+      "2": 21.25,
+      "3": 21.02
+     },
+     "win_pct": 21.5
+    },
+    "expert_no_exit": {
+     "games": 200000,
+     "wins": 27388,
+     "by_seat": {
+      "0": 14.13,
+      "1": 13.89,
+      "2": 13.73,
+      "3": 13.03
+     },
+     "win_pct": 13.69
+    },
+    "expert_no_defence": {
+     "games": 200000,
+     "wins": 46974,
+     "by_seat": {
+      "0": 24.04,
+      "1": 23.5,
+      "2": 23.4,
+      "3": 23.0
+     },
+     "win_pct": 23.49
+    }
+   }
+  },
+  "house_rules": {
+   "hero": {
+    "no_safe_squares|expert_vs_random": {
+     "games": 100000,
+     "wins": 53718,
+     "by_seat": {
+      "0": 54.5,
+      "1": 54.03,
+      "2": 53.85,
+      "3": 52.5
+     },
+     "win_pct": 53.72
+    },
+    "no_safe_squares|expert_no_capture_vs_expert": {
+     "games": 100000,
+     "wins": 19486,
+     "by_seat": {
+      "0": 20.21,
+      "1": 19.64,
+      "2": 19.5,
+      "3": 18.6
+     },
+     "win_pct": 19.49
+    },
+    "no_safe_squares|expert_no_defence_vs_expert": {
+     "games": 100000,
+     "wins": 19874,
+     "by_seat": {
+      "0": 20.36,
+      "1": 19.94,
+      "2": 20.0,
+      "3": 19.2
+     },
+     "win_pct": 19.87
+    },
+    "no_three_sixes_rule|expert_vs_random": {
+     "games": 100000,
+     "wins": 67834,
+     "by_seat": {
+      "0": 68.53,
+      "1": 68.38,
+      "2": 67.35,
+      "3": 67.08
+     },
+     "win_pct": 67.83
+    },
+    "no_three_sixes_rule|expert_no_capture_vs_expert": {
+     "games": 100000,
+     "wins": 21440,
+     "by_seat": {
+      "0": 21.96,
+      "1": 21.46,
+      "2": 21.52,
+      "3": 20.82
+     },
+     "win_pct": 21.44
+    },
+    "no_three_sixes_rule|expert_no_defence_vs_expert": {
+     "games": 100000,
+     "wins": 23649,
+     "by_seat": {
+      "0": 24.13,
+      "1": 23.7,
+      "2": 23.54,
+      "3": 23.22
+     },
+     "win_pct": 23.65
+    },
+    "blocks|expert_vs_random": {
+     "games": 100000,
+     "wins": 72088,
+     "by_seat": {
+      "0": 72.83,
+      "1": 72.33,
+      "2": 71.96,
+      "3": 71.23
+     },
+     "win_pct": 72.09
+    },
+    "blocks|expert_no_capture_vs_expert": {
+     "games": 100000,
+     "wins": 23111,
+     "by_seat": {
+      "0": 23.58,
+      "1": 23.34,
+      "2": 22.82,
+      "3": 22.7
+     },
+     "win_pct": 23.11
+    },
+    "blocks|expert_no_defence_vs_expert": {
+     "games": 100000,
+     "wins": 23614,
+     "by_seat": {
+      "0": 23.46,
+      "1": 23.5,
+      "2": 24.01,
+      "3": 23.49
+     },
+     "win_pct": 23.61
+    },
+    "bonus_roll_for_capture_or_home|expert_vs_random": {
+     "games": 100000,
+     "wins": 75736,
+     "by_seat": {
+      "0": 76.26,
+      "1": 76.12,
+      "2": 75.58,
+      "3": 74.98
+     },
+     "win_pct": 75.74
+    },
+    "bonus_roll_for_capture_or_home|expert_no_capture_vs_expert": {
+     "games": 100000,
+     "wins": 17467,
+     "by_seat": {
+      "0": 18.5,
+      "1": 17.22,
+      "2": 17.13,
+      "3": 17.02
+     },
+     "win_pct": 17.47
+    },
+    "bonus_roll_for_capture_or_home|expert_no_defence_vs_expert": {
+     "games": 100000,
+     "wins": 20503,
+     "by_seat": {
+      "0": 20.86,
+      "1": 20.88,
+      "2": 20.26,
+      "3": 20.01
+     },
+     "win_pct": 20.5
+    },
+    "exit_on_1_or_6|expert_vs_random": {
+     "games": 100000,
+     "wins": 79492,
+     "by_seat": {
+      "0": 79.99,
+      "1": 79.26,
+      "2": 79.68,
+      "3": 79.04
+     },
+     "win_pct": 79.49
+    },
+    "exit_on_1_or_6|expert_no_capture_vs_expert": {
+     "games": 100000,
+     "wins": 21112,
+     "by_seat": {
+      "0": 21.37,
+      "1": 21.17,
+      "2": 21.08,
+      "3": 20.83
+     },
+     "win_pct": 21.11
+    },
+    "exit_on_1_or_6|expert_no_defence_vs_expert": {
+     "games": 100000,
+     "wins": 26885,
+     "by_seat": {
+      "0": 27.02,
+      "1": 26.82,
+      "2": 26.88,
+      "3": 26.82
+     },
+     "win_pct": 26.89
+    },
+    "no_extra_roll_on_six|expert_vs_random": {
+     "games": 100000,
+     "wins": 73248,
+     "by_seat": {
+      "0": 74.31,
+      "1": 73.38,
+      "2": 72.6,
+      "3": 72.7
+     },
+     "win_pct": 73.25
+    },
+    "no_extra_roll_on_six|expert_no_capture_vs_expert": {
+     "games": 100000,
+     "wins": 21490,
+     "by_seat": {
+      "0": 22.02,
+      "1": 21.88,
+      "2": 21.14,
+      "3": 20.92
+     },
+     "win_pct": 21.49
+    },
+    "no_extra_roll_on_six|expert_no_defence_vs_expert": {
+     "games": 100000,
+     "wins": 22176,
+     "by_seat": {
+      "0": 22.69,
+      "1": 22.12,
+      "2": 22.14,
+      "3": 21.75
+     },
+     "win_pct": 22.18
+    }
+   },
+   "tables": {
+    "no_safe_squares|all_expert": {
+     "games": 200000,
+     "seat_win_pct": [
+      25.57,
+      25.21,
+      24.77,
+      24.46
+     ],
+     "avg_rounds": 99.4,
+     "p50": 98,
+     "p90": 125,
+     "p99": 150,
+     "shortest": 44,
+     "longest": 221,
+     "avg_rolls": 472.9,
+     "avg_captures": 33.26,
+     "winner_caps_made": 9.52,
+     "winner_caps_suffered": 6.51,
+     "loser_caps_made": 7.91,
+     "loser_caps_suffered": 8.92,
+     "winner_never_captured_pct": 0.57,
+     "first_piece_home_wins_pct": 40.87,
+     "first_capture_wins_pct": 29.16
+    },
+    "no_safe_squares|all_random": {
+     "games": 100000,
+     "seat_win_pct": [
+      25.55,
+      25.28,
+      24.55,
+      24.61
+     ],
+     "avg_rounds": 86.6,
+     "p50": 85,
+     "p90": 106,
+     "p99": 126,
+     "shortest": 44,
+     "longest": 178,
+     "avg_rolls": 411.7,
+     "avg_captures": 17.69,
+     "winner_caps_made": 5.01,
+     "winner_caps_suffered": 3.0,
+     "loser_caps_made": 4.23,
+     "loser_caps_suffered": 4.9,
+     "winner_never_captured_pct": 6.51,
+     "first_piece_home_wins_pct": 38.88,
+     "first_capture_wins_pct": 29.11
+    },
+    "no_three_sixes_rule|all_expert": {
+     "games": 200000,
+     "seat_win_pct": [
+      25.39,
+      25.23,
+      24.89,
+      24.49
+     ],
+     "avg_rounds": 91.4,
+     "p50": 90,
+     "p90": 115,
+     "p99": 139,
+     "shortest": 39,
+     "longest": 200,
+     "avg_rolls": 437.0,
+     "avg_captures": 23.44,
+     "winner_caps_made": 6.39,
+     "winner_caps_suffered": 4.37,
+     "loser_caps_made": 5.68,
+     "loser_caps_suffered": 6.36,
+     "winner_never_captured_pct": 3.34,
+     "first_piece_home_wins_pct": 39.04,
+     "first_capture_wins_pct": 29.35
+    },
+    "no_three_sixes_rule|all_random": {
+     "games": 100000,
+     "seat_win_pct": [
+      25.74,
+      25.09,
+      24.78,
+      24.39
+     ],
+     "avg_rounds": 80.5,
+     "p50": 80,
+     "p90": 97,
+     "p99": 114,
+     "shortest": 40,
+     "longest": 149,
+     "avg_rolls": 384.4,
+     "avg_captures": 14.13,
+     "winner_caps_made": 4.07,
+     "winner_caps_suffered": 2.28,
+     "loser_caps_made": 3.35,
+     "loser_caps_suffered": 3.95,
+     "winner_never_captured_pct": 11.66,
+     "first_piece_home_wins_pct": 37.39,
+     "first_capture_wins_pct": 29.87
+    },
+    "blocks|all_expert": {
+     "games": 200000,
+     "seat_win_pct": [
+      25.16,
+      25.31,
+      24.83,
+      24.7
+     ],
+     "avg_rounds": 106.7,
+     "p50": 105,
+     "p90": 136,
+     "p99": 166,
+     "shortest": 41,
+     "longest": 268,
+     "avg_rolls": 507.9,
+     "avg_captures": 28.45,
+     "winner_caps_made": 7.61,
+     "winner_caps_suffered": 5.62,
+     "loser_caps_made": 6.94,
+     "loser_caps_suffered": 7.61,
+     "winner_never_captured_pct": 1.66,
+     "first_piece_home_wins_pct": 36.44,
+     "first_capture_wins_pct": 27.26
+    },
+    "blocks|all_random": {
+     "games": 100000,
+     "seat_win_pct": [
+      25.49,
+      25.11,
+      24.82,
+      24.58
+     ],
+     "avg_rounds": 81.6,
+     "p50": 81,
+     "p90": 98,
+     "p99": 116,
+     "shortest": 39,
+     "longest": 161,
+     "avg_rolls": 387.8,
+     "avg_captures": 14.04,
+     "winner_caps_made": 4.04,
+     "winner_caps_suffered": 2.26,
+     "loser_caps_made": 3.33,
+     "loser_caps_suffered": 3.93,
+     "winner_never_captured_pct": 11.7,
+     "first_piece_home_wins_pct": 37.27,
+     "first_capture_wins_pct": 30.0
+    },
+    "bonus_roll_for_capture_or_home|all_expert": {
+     "games": 200000,
+     "seat_win_pct": [
+      25.54,
+      25.07,
+      24.84,
+      24.54
+     ],
+     "avg_rounds": 80.3,
+     "p50": 79,
+     "p90": 101,
+     "p99": 120,
+     "shortest": 34,
+     "longest": 159,
+     "avg_rolls": 411.7,
+     "avg_captures": 20.22,
+     "winner_caps_made": 6.03,
+     "winner_caps_suffered": 3.61,
+     "loser_caps_made": 4.73,
+     "loser_caps_suffered": 5.54,
+     "winner_never_captured_pct": 5.66,
+     "first_piece_home_wins_pct": 37.71,
+     "first_capture_wins_pct": 30.47
+    },
+    "bonus_roll_for_capture_or_home|all_random": {
+     "games": 100000,
+     "seat_win_pct": [
+      25.79,
+      25.08,
+      24.84,
+      24.29
+     ],
+     "avg_rounds": 74.5,
+     "p50": 74,
+     "p90": 90,
+     "p99": 106,
+     "shortest": 36,
+     "longest": 138,
+     "avg_rolls": 377.6,
+     "avg_captures": 13.63,
+     "winner_caps_made": 4.24,
+     "winner_caps_suffered": 2.15,
+     "loser_caps_made": 3.13,
+     "loser_caps_suffered": 3.83,
+     "winner_never_captured_pct": 13.26,
+     "first_piece_home_wins_pct": 37.93,
+     "first_capture_wins_pct": 31.65
+    },
+    "exit_on_1_or_6|all_expert": {
+     "games": 200000,
+     "seat_win_pct": [
+      25.35,
+      25.29,
+      24.82,
+      24.54
+     ],
+     "avg_rounds": 94.4,
+     "p50": 93,
+     "p90": 119,
+     "p99": 145,
+     "shortest": 39,
+     "longest": 218,
+     "avg_rolls": 449.2,
+     "avg_captures": 32.27,
+     "winner_caps_made": 8.01,
+     "winner_caps_suffered": 6.16,
+     "loser_caps_made": 8.09,
+     "loser_caps_suffered": 8.7,
+     "winner_never_captured_pct": 1.3,
+     "first_piece_home_wins_pct": 40.26,
+     "first_capture_wins_pct": 26.18
+    },
+    "exit_on_1_or_6|all_random": {
+     "games": 100000,
+     "seat_win_pct": [
+      25.52,
+      25.05,
+      24.8,
+      24.62
+     ],
+     "avg_rounds": 83.7,
+     "p50": 82,
+     "p90": 103,
+     "p99": 122,
+     "shortest": 42,
+     "longest": 180,
+     "avg_rolls": 398.0,
+     "avg_captures": 23.14,
+     "winner_caps_made": 6.35,
+     "winner_caps_suffered": 3.78,
+     "loser_caps_made": 5.6,
+     "loser_caps_suffered": 6.46,
+     "winner_never_captured_pct": 3.42,
+     "first_piece_home_wins_pct": 42.08,
+     "first_capture_wins_pct": 28.07
+    },
+    "no_extra_roll_on_six|all_expert": {
+     "games": 200000,
+     "seat_win_pct": [
+      25.29,
+      25.3,
+      24.66,
+      24.75
+     ],
+     "avg_rounds": 108.5,
+     "p50": 107,
+     "p90": 134,
+     "p99": 158,
+     "shortest": 59,
+     "longest": 222,
+     "avg_rolls": 432.6,
+     "avg_captures": 21.84,
+     "winner_caps_made": 5.82,
+     "winner_caps_suffered": 3.94,
+     "loser_caps_made": 5.34,
+     "loser_caps_suffered": 5.97,
+     "winner_never_captured_pct": 3.52,
+     "first_piece_home_wins_pct": 37.2,
+     "first_capture_wins_pct": 28.14
+    },
+    "no_extra_roll_on_six|all_random": {
+     "games": 100000,
+     "seat_win_pct": [
+      25.54,
+      25.1,
+      25.13,
+      24.22
+     ],
+     "avg_rounds": 98.2,
+     "p50": 97,
+     "p90": 117,
+     "p99": 137,
+     "shortest": 61,
+     "longest": 180,
+     "avg_rolls": 391.2,
+     "avg_captures": 14.26,
+     "winner_caps_made": 4.04,
+     "winner_caps_suffered": 2.15,
+     "loser_caps_made": 3.41,
+     "loser_caps_suffered": 4.04,
+     "winner_never_captured_pct": 12.73,
+     "first_piece_home_wins_pct": 37.2,
+     "first_capture_wins_pct": 29.42
+    }
+   }
+  },
+  "two_player": {
+   "hero": {
+    "expert_vs_random": {
+     "games": 100000,
+     "wins": 88975,
+     "by_seat": {
+      "0": 89.29,
+      "1": 88.66
+     },
+     "win_pct": 88.97
+    },
+    "expert_no_capture_vs_expert": {
+     "games": 100000,
+     "wins": 39004,
+     "by_seat": {
+      "0": 40.03,
+      "1": 37.97
+     },
+     "win_pct": 39.0
+    },
+    "expert_no_defence_vs_expert": {
+     "games": 100000,
+     "wins": 43934,
+     "by_seat": {
+      "0": 44.84,
+      "1": 43.03
+     },
+     "win_pct": 43.93
+    }
+   },
+   "tables": {
+    "all_expert": {
+     "games": 200000,
+     "seat_win_pct": [
+      50.9,
+      49.1
+     ],
+     "avg_rounds": 72.4,
+     "p50": 71,
+     "p90": 87,
+     "p99": 102,
+     "shortest": 37,
+     "longest": 142,
+     "avg_rolls": 172.3,
+     "avg_captures": 3.22,
+     "winner_caps_made": 1.97,
+     "winner_caps_suffered": 1.25,
+     "loser_caps_made": 1.25,
+     "loser_caps_suffered": 1.97,
+     "winner_never_captured_pct": 31.0,
+     "first_piece_home_wins_pct": 62.35,
+     "first_capture_wins_pct": 61.86
+    },
+    "all_random": {
+     "games": 100000,
+     "seat_win_pct": [
+      51.1,
+      48.9
+     ],
+     "avg_rounds": 73.9,
+     "p50": 73,
+     "p90": 88,
+     "p99": 104,
+     "shortest": 42,
+     "longest": 135,
+     "avg_rolls": 175.8,
+     "avg_captures": 2.38,
+     "winner_caps_made": 1.53,
+     "winner_caps_suffered": 0.85,
+     "loser_caps_made": 0.85,
+     "loser_caps_suffered": 1.53,
+     "winner_never_captured_pct": 43.73,
+     "first_piece_home_wins_pct": 58.16,
+     "first_capture_wins_pct": 62.79
+    }
+   }
+  },
+  "seat_order": {
+   "tables": {
+    "all_random": {
+     "games": 400000,
+     "seat_win_pct": [
+      25.78,
+      25.06,
+      24.75,
+      24.41
+     ],
+     "avg_rounds": 81.5,
+     "p50": 80,
+     "p90": 98,
+     "p99": 116,
+     "shortest": 41,
+     "longest": 158,
+     "avg_rolls": 387.4,
+     "avg_captures": 14.07,
+     "winner_caps_made": 4.05,
+     "winner_caps_suffered": 2.25,
+     "loser_caps_made": 3.34,
+     "loser_caps_suffered": 3.94,
+     "winner_never_captured_pct": 11.9,
+     "first_piece_home_wins_pct": 37.81,
+     "first_capture_wins_pct": 29.94
+    },
+    "all_expert": {
+     "games": 600000,
+     "seat_win_pct": [
+      25.48,
+      25.09,
+      24.92,
+      24.5
+     ],
+     "avg_rounds": 92.8,
+     "p50": 92,
+     "p90": 117,
+     "p99": 140,
+     "shortest": 38,
+     "longest": 200,
+     "avg_rolls": 441.4,
+     "avg_captures": 23.52,
+     "winner_caps_made": 6.4,
+     "winner_caps_suffered": 4.38,
+     "loser_caps_made": 5.71,
+     "loser_caps_suffered": 6.38,
+     "winner_never_captured_pct": 3.33,
+     "first_piece_home_wins_pct": 38.73,
+     "first_capture_wins_pct": 29.22
+    }
+   }
+  }
+ },
+ "longest_game_rounds": 315,
+ "shortest_game_rounds": 32
+}
